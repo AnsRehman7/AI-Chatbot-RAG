@@ -6,5 +6,4 @@ __pycache__/
 *:Zone.Identifier
 
 # Source PDFs and the generated FAISS index (rebuild with: python main.py)
-data/*.pdf
 vectorstore/
