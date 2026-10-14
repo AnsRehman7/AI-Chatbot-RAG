@@ -1,0 +1,6 @@
+[server]
+# Streamlit's file watcher scans every imported module on each rerun. With
+# transformers installed, that triggers imports of vision models needing
+# torchvision and floods the terminal with ModuleNotFoundError warnings.
+# Trade-off: after editing chatbot.py, restart streamlit to see the change.
+fileWatcherType = "none"
